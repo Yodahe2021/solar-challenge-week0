@@ -1,6 +1,17 @@
-# Solar Challenge Week 0 - Setup Task
 
-This project analyzes solar radiation data for multiple countries.
+# Solar Challenge Week 0
+
+## Project Overview
+This repository contains EDA and Streamlit dashboard for solar farm analysis across Benin, Sierra Leone, and Togo.
+
+## Folder Structure
+- `notebooks/` : EDA notebooks for each country and cross-country comparison
+- `app/`       : Streamlit dashboard skeleton
+- `data/`      : Cleaned datasets (ignored in Git)
+
+## How to Run
+1. Create and activate a virtual environment:
+
 
 ## Setup Instructions
 ```bash
