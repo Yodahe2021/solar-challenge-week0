@@ -9,7 +9,7 @@ import pandas as pd
 def load_data(country):
     return pd.read_csv(f"../data/clean/{country}-clean.csv")
 
-country = st.selectbox("Select Country", ["benin-malanville-clean", "sierra_leone-malanville-clean", "togo-dapaong_qc-clean"])
+country = st.selectbox("Select Country", ["benin-malanville", "sierra_leone-malanville", "togo-dapaong_qc"])
 df = load_data(country)
 st.write(df.head())
 import matplotlib.pyplot as plt
