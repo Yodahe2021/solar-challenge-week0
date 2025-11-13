@@ -7,7 +7,7 @@ import pandas as pd
 
 @st.cache_data
 def load_data(country):
-    return pd.read_csv(f"data/clean/{country}-clean.csv")
+    return pd.read_csv(f"../data/clean/{country}-clean.csv")
 
 country = st.selectbox("Select Country", ["benin-malanville-clean", "sierra_leone-malanville-clean", "togo-dapaong_qc-clean"])
 df = load_data(country)
